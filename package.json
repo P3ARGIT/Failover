@@ -1,0 +1,22 @@
+{
+    "name": "failover-proxy",
+    "version": "1.0.0",
+    "main": "main.js",
+    "devDependencies": {
+        "electron": "^17.0.1"
+    },
+    "scripts": {
+        "start": "electron ."
+    },
+    "dependencies": {
+        "electron-context-menu": "^3.1.2",
+        "electron-store": "^8.0.1",
+        "express": "^4.17.3",
+        "fs": "^0.0.1-security",
+        "http-proxy-middleware": "^2.0.3",
+        "ip": "^1.1.5",
+        "morgan": "^1.10.0",
+        "node-fetch": "^2.6.7",
+        "smalltalk": "^4.0.7"
+    }
+}
